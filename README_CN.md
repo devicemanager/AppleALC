@@ -1,12 +1,12 @@
 AppleALC
 ========
 
-[![Build Status](https://github.com/acidanthera/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
+[![Build Status](https://github.com/devicemanager/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/devicemanager/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
 
 一个开源的内核扩展，为非官方的声卡提供支持的 Codec，无需修改任何系统文件，即可启用原生的 macOS HD 音频，AppleALCU 可用于具有纯数字音频的系统。
 
-[英文](https://github.com/acidanthera/AppleALC/blob/master/README.md)  
-[简体中文](https://github.com/acidanthera/AppleALC/blob/master/README_CN.md)  
+[英文](https://github.com/devicemanager/AppleALC/blob/master/README.md)  
+[简体中文](https://github.com/devicemanager/AppleALC/blob/master/README_CN.md)  
 
 #### 特性
 - 在系统安装阶段即可使用数字或模拟音频
@@ -30,11 +30,11 @@ AppleALC
 - [Andrey1970AppleLife](https://github.com/Andrey1970AppleLife) 和 [vandroiy2013](https://github.com/vandroiy2013) 一直在维护Codec数据库
 
 #### 安装
-最简单的安装介绍就在 [wiki](https://github.com/acidanthera/AppleALC/wiki) 上。
-最新版本的 AppleALC 驱动程序在 [Releases](https://github.com/acidanthera/AppleALC/releases) 页面。
+最简单的安装介绍就在 [wiki](https://github.com/devicemanager/AppleALC/wiki) 上。
+最新版本的 AppleALC 驱动程序在 [Releases](https://github.com/devicemanager/AppleALC/releases) 页面。
 
 #### 贡献项目以适配更多机型
-如果你想为更多机器适配不同的 Codec，你需要提供你的配置文件。阅读[wiki](https://github.com/acidanthera/AppleALC/wiki) 来获取更多信息。如果你想要贡献你的代码，可以看到在很多代码文件头部有 AppleDOC 注释供您参考。
+如果你想为更多机器适配不同的 Codec，你需要提供你的配置文件。阅读[wiki](https://github.com/devicemanager/AppleALC/wiki) 来获取更多信息。如果你想要贡献你的代码，可以看到在很多代码文件头部有 AppleDOC 注释供您参考。
 
 #### 更多支持与讨论
 [InsanelyMac上的帖子（英语）](http://www.insanelymac.com/forum/topic/311293-applealc-—-dynamic-applehda-patching/)  

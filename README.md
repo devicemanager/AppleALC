@@ -1,12 +1,12 @@
 AppleALC
 ========
 
-[![Build Status](https://github.com/acidanthera/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/acidanthera/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
+[![Build Status](https://github.com/devicemanager/AppleALC/workflows/CI/badge.svg?branch=master)](https://github.com/devicemanager/AppleALC/actions) [![Scan Status](https://scan.coverity.com/projects/16166/badge.svg?flat=1)](https://scan.coverity.com/projects/16166)
 
 An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications. AppleALCU can be used for systems with digital-only audio.
 
 English (Current)  
-[简体中文](https://github.com/acidanthera/AppleALC/blob/master/README_CN.md)  
+[简体中文](https://github.com/devicemanager/AppleALC/blob/master/README_CN.md)  
 
 #### Features
 - Digital and analog audio support starting from the OS installation
@@ -30,11 +30,11 @@ English (Current)
 - [Andrey1970AppleLife](https://github.com/Andrey1970AppleLife), [vandroiy2013](https://github.com/vandroiy2013) for maintaining the codec database
 
 #### Installation
-The minimal instruction is available on the [wiki](https://github.com/acidanthera/AppleALC/wiki).  
-The prebuilt binaries are available on [releases](https://github.com/acidanthera/AppleALC/releases) page.
+The minimal instruction is available on the [wiki](https://github.com/devicemanager/AppleALC/wiki).  
+The prebuilt binaries are available on [releases](https://github.com/devicemanager/AppleALC/releases) page.
 
 #### Contribution
-To support more audio codecs in the binary packages you are asked to submit your configurations. Please read the [wiki](https://github.com/acidanthera/AppleALC/wiki) for more details. For the contributors with programming skills the headers are filled with AppleDOC comments.
+To support more audio codecs in the binary packages you are asked to submit your configurations. Please read the [wiki](https://github.com/devicemanager/AppleALC/wiki) for more details. For the contributors with programming skills the headers are filled with AppleDOC comments.
 
 #### Support and discussion
 [InsanelyMac topic](http://www.insanelymac.com/forum/topic/311293-applealc-—-dynamic-applehda-patching/) in English  

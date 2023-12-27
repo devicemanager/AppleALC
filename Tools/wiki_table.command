@@ -6,7 +6,7 @@
 #  
 
 outfile=~/Desktop/SupportedСodecs.md
-printf '*Thеse tables are generated using [wiki_table.command](https://github.com/acidanthera/AppleALC/blob/master/Tools/wiki_table.command)* \n' > $outfile
+printf '*Thеse tables are generated using [wiki_table.command](https://github.com/devicemanager/AppleALC/blob/master/Tools/wiki_table.command)* \n' > $outfile
 cd "$(dirname "$0")/../Resources/"
 ver=$(grep "MODULE_VERSION =" ../AppleALC.xcodeproj/project.pbxproj | head -1 |  awk '{ print $3 }' | tr -d ";")
 printf '#### Currently supported codecs '$(date '+%Y-%m-%d')' v'${ver}'\n' >> $outfile
@@ -111,7 +111,7 @@ esac
 
 
 printf '| '$vendor' ' >> $outfile
-printf '| ['${d1%/}'](https://github.com/acidanthera/AppleALC/tree/master/Resources/'${d%/}'/Info.plist)' >> $outfile
+printf '| ['${d1%/}'](https://github.com/devicemanager/AppleALC/tree/master/Resources/'${d%/}'/Info.plist)' >> $outfile
 printf '| '"${rev}"' layout ' >> $outfile
 cd $d
 u=""
@@ -138,7 +138,7 @@ model=$(/usr/libexec/PlistBuddy -c "Print $k:Model"  "${f}")
 if [ ! -z $device ]
 then
 printf '| '"${vendor}"' ' >> $outfile
-printf '| [%s](https://github.com/acidanthera/AppleALC/blob/master/Resources/Controllers.plist) | 0x%04X' "${name}" "${device}" >> $outfile
+printf '| [%s](https://github.com/devicemanager/AppleALC/blob/master/Resources/Controllers.plist) | 0x%04X' "${name}" "${device}" >> $outfile
 
 if [ -z $model ]
 then model=" — "
